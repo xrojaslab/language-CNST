@@ -1,0 +1,17 @@
+{
+  "name": "language-cnst",
+  "version": "1.0.0",
+  "description": "CNST toolbox language grammar for Atom",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xrojaslab/language-CNST.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xrojaslab/language-CNST/issues"
+  },
+  "license": "none"
+}
