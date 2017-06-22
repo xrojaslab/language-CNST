@@ -1,0 +1,54 @@
+'scopeName': 'source.cnst'
+'name': 'cnst'
+'fileTypes': ['cnst']
+
+'patterns': [
+  {
+    'name': 'numbers.cnst'
+    'match': '\\b(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))\\b'
+    },
+  {
+    'name': 'keyword1.cnst'
+    'match': '\\b(m|l|h|c|q|h|moveto|lineto|curveto|quadto|closepath|polararray|ellipse|ellipseVector|torus|rectangle|rectangleLH|rectangleC|roundrect|polypath|polygon|star|circlethree|array|points2shape|points2instance|spiralArch|spiralFermat|spiralLog|cross|Lshape|curvedBeamsNEMS|nistCNSTlogo|cnstLogo|cnstEmblem|nistLogo|torusVector|spiralDelayLineArch|spiralDelayLineFermat|spiralDelayLineArchV2|spiralDelayLineArchInv|spiralDelayLineFermatInv|spiralDelayLineArchV2Inv|grayER|grayENgon|grayUDR|grayUDNgon|grayERamp|grayERamp2|grayUDRamp|grayUDRamp2|graySpiralStairOverlap|graySpiralStair|circleWave|torusWaveIn|torusWaveOut|cantileverL|cantileverP|cantileverSine|cantileverLSE|cantileverNLSE|cantileverCustom|dcBeamL|dcBeamP|dcBeamLSE|dcBeamNLSE|dcBeamCustom|rectSUshape|cantileverSR|cantileverSTri|cantileverSTrap|cantileverSPaddle|cantileverSCH|cantileverSCF|cantileverHR|cantileverHTri|cantileverHTrap|cantileverHPaddle|cantileverHCH|cantileverHCF|cantileverPB2|cantileverPB3|cantileverUR|cantileverUCF|cantileverUC|cantileverUCC|cantileverUCP|cantileverCE|cantileverCEPaddle|dcBeamR|dcBeamT|dcBeamC|GuckelRing|GuckelRingArray|flexure4A|flexure4B|flexure4C|flexure4D|flexure4E|flexure2A|flexure2B|flexure2C|flexure2D|flexure2E|bentBeam|bentBeamArray|straightSpring|circularSpring|diamondRing|straightSpringE|circularSpringE|biMorph|foldedSpring1A|foldedSpring1B|foldedSpring2A|foldedSpring2B|foldedSpring2C|foldedSpring2D|foldedSpring2E|foldedSpring2F|foldedSpring2G|foldedSpring2H|foldedSpring2I|foldedSpring2J|intElec1|intElec2|intElec3|intElec4|intElec5|combDriveV1|linearDriveV1|dcBeamT2|dcBeamCB|MARC|MAR3|MAR2|MATC|MAT3|MAT2|MARA|MATALW|MATA|MARACURVE|MARALINEAR|spiralRect|combRadialV1|combRadialV2|resoPattern|resoPatternPi|tJunction|hJunction|arrowJunction|gear|gearT|bolometerL|bolometerU|torusW|fluidCell|resoPatternRS|resoPatternRSA|resoPatternLS|resoPatternLSA|rectTaper|arc|arcVector|roundrectC|nistCnstLogo)\\b'
+    }
+  {
+    'name': 'keyword2.cnst'
+    'match': '\\b(layer|shapeReso|psPixelValue|gdsReso|fontOutline|psFracElements|dataType)\\b'
+    }
+  {
+    'name': 'keyword3.cnst'
+    'match': '\\b(struct|arrayRect|arrayrect|arrayHex|arrayhex|arrayPolar|arraypolar|instance|textgds|textGDS|textgdsC|textGDSC|verniers|grating|gratingCoupler|sBend|sBendLH|yBend|yBendLH|sierpinskiTriangle|sierpinskiCarpet|vicsekSaltire|vicsekCross|curvedTree|treeV1|treeV2|90degreeBend|90degreeBendLH|linearTaper|customTaper|waveguide|exponentialTaper|sBendTaper|sBendFunnel|bezierCurve|raceTrack|waveGuideInvPhC|waveGuideInvPhCvary|waveGuidePhC|waveGuidePhCvary|waveGuideInvRectPhC|waveGuideInvRectPhCvary|waveGuideRectPhC|waveGuideRectPhCvary|waveGuideRectFlushPhCvary|waveGuideInvRectFlushPhCvary|discInfinite|ringInfinite|discSymmetric|ringSymmetric|discPulley|ringPulley|labelMaker|labelOutline|textOutline|textOutlineC|waveguideSlot|waveguideInv|waveguideInvSlot|linearTaperSlot|linearTaperInvSlot|exponentialTaperInv|exponentialTaperInvSlot|sBendInv|sBendInvSlot|yBendInv|yBendInvSlot|90degreeBendInv|90degreeBendInvSlot|discInfiniteInv|ringInfiniteInv|discSymmetricInv|ringSymmetricInv|discPulleyInv|ringPulleyInv|discInfiniteInvPos|ringInfiniteInvPos|discSymmetricInvPos|ringSymmetricInvPos|discPulleyInvPos|ringPulleyInvPos|discPulleyLC|ringPulleyLC|discPulleyInvLC|ringPulleyInvLC|discPulleyInvPosLC|ringPulleyInvPosLC|discSymmetricLC|ringSymmetricLC|discSymmetricInvLC|ringSymmetricInvLC|discSymmetricInvPosLC|ringSymmetricInvPosLC&#x000D;&#x000A;phC|phCV|hex|hexV&#x000D;&#x000A;discInfDS|ringInfDS|discInfInvDS|ringInfInvDS|discInfInvPosDS|ringInfInvPosDS|discSymDS|ringSymDS|discSymPul|ringSymPul|discSymmetricA|ringSymmetricA|discSymmetricLCA|ringSymmetricLCA|discSymmetricInvA|ringSymmetricInvA|discSymmetricInvLCA|ringSymmetricInvLCA|discSymmetricInvPosA|ringSymmetricInvPosA|discSymmetricInvPosLCA|ringSymmetricInvPosLCA|discPulleyA|ringPulleyA|discPulleyLCA|ringPulleyLCA|discPulleyInvA|ringPulleyInvA|discPulleyInvLCA|ringPulleyInvLCA|discPulleyInvPosA|ringPulleyInvPosA|discPulleyInvPosLCA|ringPulleyInvPosLCA|discSymLCDS|ringSymLCDS|discSymLCPul|ringSymLCPul|discSymADS|ringSymADS|discSymAPul|ringSymAPul|discSymLCADS|ringSymLCADS|discSymLCAPul|ringSymLCAPul|discSymInvDS|ringSymInvDS|discSymInvPul|ringSymInvPul|discSymInvLCDS|ringSymInvLCDS|discSymInvLCPul|ringSymInvLCPul|discSymInvADS|ringSymInvADS|discSymInvAPul|ringSymInvAPul|discSymInvLCADS|ringSymInvLCADS|discSymInvLCAPul|ringSymInvLCAPul|discSymInvPosDS|ringSymInvPosDS|discSymInvPosPul|ringSymInvPosPul|discSymInvPosLCDS|ringSymInvPosLCDS|discSymInvPosLCPul|ringSymInvPosLCPul|discSymInvPosADS|ringSymInvPosADS|discSymInvPosAPul|ringSymInvPosAPul|discSymInvPosLCADS|ringSymInvPosLCADS|discSymInvPosLCAPul|ringSymInvPosLCAPul|discPulDS|ringPulDS|discPulPul|ringPulPul|discPulLCDS|ringPulLCDS|discPulLCPul|ringPulLCPul|discPulADS|ringPulADS|discPulAPul|ringPulAPul|discPulLCADS|ringPulLCADS|discPulLCAPul|ringPulLCAPul|discPulInvDS|ringPulInvDS|discPulInvPul|ringPulInvPul|discPulInvLCDS|ringPulInvLCDS|discPulInvLCPul|ringPulInvLCPul|discPulInvADS|ringPulInvADS|discPulInvAPul|ringPulInvAPul|discPulInvLCADS|ringPulInvLCADS|discPulInvLCAPul|ringPulInvLCAPul|discPulInvPDS|ringPulInvPDS|discPulInvPPul|ringPulInvPPul|discPulInvPLCDS|ringPulInvPLCDS|discPulInvPLCPul|ringPulInvPLCPul|discPulInvPADS|ringPulInvPADS|discPulInvPAPul|ringPulInvPAPul|discPulInvPLCADS|ringPulInvPLCADS|discPulInvPLCAPul|ringPulInvPLCAPul|functionXY|functionRT|arrowHead|arrow|arrowArray|alignFFFB1|alignFFFB2|align3Level|alignVernLb1|alignVernLb2|alignVern|alignCustC1|alignCustC2|alignCustC3|alignCustC4|alignCustVern|meanderSin|meanderSqr|meanderRamp|meanderTri|cnstASML|cnstContact5|cnstContact7|wgdcdV1|wgdcdV2|wgdcdV3|wgdcdV4|wgdcdV5|wgdcdV6|wgdcdV7|wgdcdV8|genArea|and|AND|or|OR|subtract|SUBTRACT|xor|XOR|genAreaCopy|genAreaCopyC|sqrPillar|sqrPillarC|sqrPillarV|sqrPillarVC|hexPillar|hexPillarC|hexPillarV|hexPillarVC|sqrHole|sqrHoleC|sqrHoleV|sqrHoleVC|hexHole|hexHoleC|hexHoleV|hexHoleVC|gratingCWG|gratingCWGinv|fileName|logFileTimeDate|instanceSym|180degreeBend|180degreeBendInv|180degreeBendInvSlot|MARAs|MARCs|MAR3s|MAR2s|MATALWs|MATAs|MATCs|MAT3s|MAT2s|MARACURVEs|MARALINEARs|wgExpander|apodizedGrating|randomPolygons|yBend90|yBendInv90|yBendInvSlot90|directionalCoupler1|directionalCoupler2|directionalCoupler3|directionalCoupler4|bezierCurveInv|bezierCurveInvSlot|randomEllipses|randomEllipsesV|arcSquareFill|arcSquareFillV|arcHexFill|arcHexFillV)\\b'
+    }
+  {
+    'name': 'keyword4.cnst'
+    'match': '\\b(autoOut|autoRowCol|autoOutLett|autoRowColLett|out|rowCol)\\b'
+    }
+  {
+    'name': 'keyword5.cnst'
+    'match': '\\b(arcRadialFill|torusEllipseW|torusEllipseFocusW|spinIceA|spinIceVectorA|spinIceB|beamCurvedEnds|beamCurvedEndsV|beamCurvedEndsC|beamCurvedEndsCV|spiralArchST|taperSB|taperSBinv|taperSupport|alignBB|raceTrackWG|raceTrackWGi|raceTrackWGpi|raceTrackWGs|raceTrackWGsi|raceTrackWGspi|directionalCoupler1i|directionalCoupler2i|directionalCoupler3i|directionalCoupler4i|splinePath|splineClosedPath|splineShape|crossWiresV1|crossWiresV2|crossWiresV3|funnel|funnelJunctionV1|funnelJunctionV2|resoPatternLS2|bondPadL3|wireC1|vanDerPauwV1|vanDerPauwV2|crossJunctionV1|crossJunctionV2|bolometerL2|memsRingsV1|memsRingsV2|memsRingsV3|funnelR|funnelJunctionV1R|1X2MMI|1X2MMItaper|mXnMMItaper|discInfiniteV|ringInfiniteV|discInfDSV|ringInfDSV|discInfiniteInvV|ringInfiniteInvV|discInfInvDSV|ringInfInvDSV|discInfiniteInvPosV|ringInfiniteInvPosV|discInfInvPosDSV|ringInfInvPosDSV|discSymmetricAV|ringSymmetricAV|discSymADSV|ringSymADSV|discSymAPulV|ringSymAPulV|discSymmetricLCAV|ringSymmetricLCAV|discSymLCADSV|ringSymLCADSV|discSymLCAPulV|ringSymLCAPulV|discSymmetricInvAV|ringSymmetricInvAV|discSymInvADSV|ringSymInvADSV|discSymInvAPulV|ringSymInvAPulV|discSymmetricInvLCAV|ringSymmetricInvLCAV|discSymInvLCADSV|ringSymInvLCADSV|discSymInvLCAPulV|ringSymInvLCAPulV|discSymmetricInvPosAV|ringSymmetricInvPosAV|discSymInvPosADSV|ringSymInvPosADSV|discSymInvPosAPulV|ringSymInvPosAPulV|discSymmetricInvPosLCAV|ringSymmetricInvPosLCAV|discSymInvPosLCADSV|ringSymInvPosLCADSV|discSymInvPosLCAPulV|ringSymInvPosLCAPulV|discPulleyAV|ringPulleyAV|discPulADSV|ringPulADSV|discPulAPulV|ringPulAPulV|discPulleyLCAV|ringPulleyLCAV|discPulLCADSV|ringPulLCADSV|discPulLCAPulV|ringPulLCAPulV|discPulleyInvAV|ringPulleyInvAV|discPulInvADSV|ringPulInvADSV|discPulInvAPulV|ringPulInvAPulV|discPulleyInvLCAV|ringPulleyInvLCAV|discPulInvLCADSV|ringPulInvLCADSV|discPulInvLCAPulV|ringPulInvLCAPulV|discPulleyInvPosAV|ringPulleyInvPosAV|discPulInvPADSV|ringPulInvPADSV|discPulInvPAPulV|ringPulInvPAPulV|discPulleyInvPosLCAV|ringPulleyInvPosLCAV|discPulInvPLCADSV|ringPulInvPLCADSV|discPulInvPLCAPulV|ringPulInvPLCAPulV|textFill|textFillC|roundPath|roundClosedPath|roundShape|textOutlineFill|textOutlineFillC|labelFill|labelOutlineFill|funnelJunctionV2C|crossJunctionV3|radialCircle|radialCircleV|radialCircleU|radialCircleUV)\\b'
+    }
+  {
+    'name': 'comment.cnst'
+    'begin': '#'
+    'end': '\n'
+    }
+  {
+    'name': 'prefix1.cnst'
+    'match': '\\+|\\-'
+    }
+  {
+    'name': 'delimiter1.cnst'
+    'begin': '{{'
+    'end': '}}'
+    }
+
+  {
+    'name': 'delimiter2.cnst'
+    'match': '{|\\}'
+    }
+  {
+    'name': 'operator1.cnst'
+    'match': '\\<|\\>'
+    }
+
+  ]
